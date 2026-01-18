@@ -7,9 +7,8 @@ public class Admin extends User {
         super(name, gender, phone_number, address, user_name, password);
     }
 
-    
-
-    
-    
-    
+    @Override
+    public String toString(){
+        return super.toString() ;
+    }
 }

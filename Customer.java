@@ -21,10 +21,7 @@ public class Customer extends User {
     @Override
     public String toString(){
         return 
-        "Name : " + getName() + "\n" +
-        "Gender : " + getGender() + "\n" +
-        "Adress : " + getAddress() + "\n" +
-        "Phone Number : " + getPhone_number() + "\n" +
+        super.toString() +
         "CNIC :" + getCnic() ;
     }
 }
